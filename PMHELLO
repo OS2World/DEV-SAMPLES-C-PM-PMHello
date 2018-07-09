@@ -1,0 +1,24 @@
+#-------------------
+# PMHELLO make file
+#-------------------
+
+pmhello.obj : pmhello.c
+     cl -c -G2sw -W3 pmhello.c
+
+pmhello1.obj : pmhello1.c
+     cl -c -G2sw -W3 pmhello1.c
+
+pmhello1.exe : pmhello.obj pmhello1.obj pmhello.def
+     link pmhello1 pmhello, /align:16, NUL, os2, pmhello
+
+pmhello2.obj : pmhello2.c
+     cl -c -G2sw -W3 pmhello2.c
+
+pmhello2.exe : pmhello.obj pmhello2.obj pmhello.def
+     link pmhello2 pmhello, /align:16, NUL, os2, pmhello
+
+pmhello3.obj : pmhello3.c
+     cl -c -G2sw -W3 pmhello3.c
+
+pmhello3.exe : pmhello.obj pmhello3.obj pmhello.def
+     link pmhello3 pmhello, /align:16, NUL, os2, pmhello

@@ -1,0 +1,10 @@
+;------------------------------------
+; PMHELLO.DEF module definition file
+;------------------------------------
+
+NAME           WINDOWAPI
+
+DESCRIPTION    'PM "Hello World" Program (c) 1988, Ziff Communications Co.'
+PROTMODE
+STACKSIZE      8192
+EXPORTS        ClientWndProc
