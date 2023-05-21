@@ -1,5 +1,6 @@
 # DEV-SAMPLES-PM-PMHello
 Various example OS/2 PM programs from PC Magazine
+![PMHello ScreenShot](/wiki/PMHello_001.png)
 
 LICENSE
 ===============
